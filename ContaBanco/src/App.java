@@ -1,6 +1,12 @@
 public class App {
-    public static void main(String[] args) throws Exception {
-        ContaTerminal contaTerminal = new ContaTerminal();
-        contaTerminal.infoConta();
+    public static void main(String[] args) {
+        double alturaJoao = 1.46;
+        double alturaMarcos = 1.37;
+
+       if(alturaMarcos > alturaJoao)
+        System.out.println("João é mais alto que Marcos");
+       else
+        System.out.println("Marcos é mais baixo que João");
+        
     }
 }
